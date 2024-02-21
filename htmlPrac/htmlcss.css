@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #776B5D;
+}
+.container{
+    margin:2%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    line-height:2rem;
+}
+.container2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10%;
+}
+.codePng{
+    height: 300px;
+}
+
+.heading{
+    color: #776B5D;
+}
+.formPng{
+    height: 350px;
+    width: 500px;
+}
+.tablePng{
+    height: 600px;
+    width: 500px;
+}
+.table{
+    margin-left: 44%;
+}
+.peraPng{
+  height: 400px;
+  width: 700px;
+}
+.peraContent{
+    font-size: larger;
+}
+.listPng{
+    height: 400px;
+    width: 590px;
+}
+.list{
+    text-align: left;
+}
+.listUlOl{
+    display: flex;
+    justify-content: space-around;
+}
+.stylePng{
+    height: 340px;
+    width: 450px;
+}
+.formatingPng{
+    height: 300px;
+    width: 500px;
+}
+.commentPng{
+    height: 400px;
+    width: 560px;
+}
+.linkPng{
+    height: 390px;
+    width: 500px;
+}
+.imgPng{
+    height: 300px;
+    width: 350px;
+}
+.faviconPng{
+    width: 100%;
+}
+.favPng{
+    height: 400px;
+}
+.favContainer{
+    height: 100%;
+}
+.blockPng{
+    height: 400px;
+
+}
+.inline{
+    height: 400px;
+}
+.classPng{
+    height: 500px;
+    width: 450x;
+}
