@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>List</title>
+    <style>
+        ul.a {
+          list-style-type: circle;
+        }
+        
+        ul.b {
+          list-style-type: square;
+        }
+        
+        ol.c {
+          list-style-type: upper-roman;
+        }
+        
+        ol.d {
+          list-style-type: lower-alpha;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="navHeader">
+      <div>
+        <div class="Btn">
+          <backButton class="linkBtn"
+            ><i class="ri-arrow-left-circle-line ri-2x"></i
+          ></backButton>
+          <nextButton class="linkBtn"
+            ><i
+              id="next"
+              class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"
+            ></i
+          ></nextButton>
+        </div>
+      </div>
+      <div class="nav2container">
+        <a class="link" href="../index.html"
+          ><div class="containerBtn">Home</div></a
+        >
+        <a class="link" href="../htmlContent.html"
+          ><div class="containerBtn">Html Practice</div></a
+        >
+        <a class="link" href="../cssContent.html"
+          ><div class="containerBtn">Css Practice</div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+        <img class="listPng" src="../images/list.png" alt="">
+      <h2>The list-style-type Property</h2>
+
+      <p>Example of unordered lists:</p>
+      <ul class="a list listA">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ul>
+
+      <ul class="b list listA">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ul>
+
+      <p>Example of ordered lists:</p>
+      <ol class="c list listA">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ol>
+
+      <ol class="d list listA">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Coca Cola</li>
+      </ol>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

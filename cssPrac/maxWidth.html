@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Max-Width</title>
+    <style>
+      div.ex1 {
+        width: 500px;
+        margin: auto;
+        border: 3px solid #73ad21;
+      }
+
+      div.ex2 {
+        max-width: 500px;
+        margin: auto;
+        border: 3px solid #73ad21;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navHeader">
+      <div>
+        <div class="Btn">
+          <backButton class="linkBtn"
+            ><i class="ri-arrow-left-circle-line ri-2x"></i
+          ></backButton>
+          <nextButton class="linkBtn"
+            ><i
+              id="next"
+              class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"
+            ></i
+          ></nextButton>
+        </div>
+      </div>
+      <div class="nav2container">
+        <a class="link" href="../index.html"
+          ><div class="containerBtn">Home</div></a
+        >
+        <a class="link" href="../htmlContent.html"
+          ><div class="containerBtn">Html Practice</div></a
+        >
+        <a class="link" href="../cssContent.html"
+          ><div class="containerBtn">Css Practice</div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+        <img class="maxWidthPng" src="../images/maxwidth.png" alt="">
+      <h2>CSS Max-width</h2>
+
+      <div class="ex1">This div element has width: 500px;</div>
+      <br />
+
+      <div class="ex2">This div element has max-width: 500px;</div>
+
+      <p>
+        <strong>Tip:</strong> Drag the browser window to smaller than 500px
+        wide, to see the difference between the two divs!
+      </p>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+

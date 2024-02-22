@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Absolute</title>
+    <style>
+        div.relative {
+          position: relative;
+          width: 400px;
+          height: 200px;
+          border: 3px solid #73AD21;
+        } 
+        
+        div.absolute {
+          position: absolute;
+          top: 80px;
+          right: 0;
+          width: 200px;
+          height: 100px;
+          border: 3px solid #73AD21;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="navHeader">
+      <div>
+        <div class="Btn">
+          <backButton class="linkBtn"
+            ><i class="ri-arrow-left-circle-line ri-2x"></i
+          ></backButton>
+          <nextButton class="linkBtn"
+            ><i
+              id="next"
+              class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"
+            ></i
+          ></nextButton>
+        </div>
+      </div>
+      <div class="nav2container">
+        <a class="link" href="../index.html"
+          ><div class="containerBtn">Home</div></a
+        >
+        <a class="link" href="../htmlContent.html"
+          ><div class="containerBtn">Html Practice</div></a
+        >
+        <a class="link" href="../cssContent.html"
+          ><div class="containerBtn">Css Practice</div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+        <img class="absolutePng" src="../images/absolute.png" alt="">
+      <h2>position: absolute;</h2>
+
+      <p>
+        An element with position: absolute; is positioned relative to the
+        nearest positioned ancestor (instead of positioned relative to the
+        viewport, like fixed):
+      </p>
+
+      <div class="relative">
+        This div element has position: relative;
+        <div class="absolute">This div element has position: absolute;</div>
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
+
+
+
+

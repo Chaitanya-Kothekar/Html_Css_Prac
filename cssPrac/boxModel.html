@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Box Model</title>
+    <style>
+        .div1 {
+          background-color: lightgrey;
+          width: 300px;
+          border: 15px solid green;
+          padding: 50px;
+          margin: 20px;
+          margin-left: 35%;
+        }
+        </style>
+  </head>
+  <body>
+    <div class="navHeader">
+      <div>
+        <div class="Btn">
+          <backButton class="linkBtn"
+            ><i class="ri-arrow-left-circle-line ri-2x"></i
+          ></backButton>
+          <nextButton class="linkBtn"
+            ><i
+              id="next"
+              class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"
+            ></i
+          ></nextButton>
+        </div>
+      </div>
+      <div class="nav2container">
+        <a class="link" href="../index.html"
+          ><div class="containerBtn">Home</div></a
+        >
+        <a class="link" href="../htmlContent.html"
+          ><div class="containerBtn">Html Practice</div></a
+        >
+        <a class="link" href="../cssContent.html"
+          ><div class="containerBtn">Css Practice</div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+        <img class="boxmodel" src="../images/boxmodel.png" alt="">
+      <h2>Demonstrating the Box Model</h2>
+
+      <p>
+        The CSS box model is essentially a box that wraps around every HTML
+        element. It consists of: borders, padding, margins, and the actual
+        content.
+      </p>
+
+      <div class="div1">
+        This text is the content of the box. We have added a 50px padding, 20px
+        margin and a 15px green border. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
+
+
+
+

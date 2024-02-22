@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Overflow</title>
+    <style>
+        #overflowTest {
+          background: #4CAF50;
+          color: white;
+          padding: 15px;
+          width: 50%;
+          height: 100px;
+          overflow: scroll;
+          border: 1px solid #ccc;
+        }
+        </style>
+</head>
+<body>
+    <div class="navHeader">
+        <div>
+          <div class="Btn">
+            <backButton class="linkBtn"><i class="ri-arrow-left-circle-line ri-2x"></i></backButton>
+            <nextButton class="linkBtn"><i id="next"  class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"></i></nextButton>
+          </div>
+        </div>
+        <div class="nav2container">
+          <a class="link" href="../index.html"><div class="containerBtn">Home</div></a>
+          <a class="link" href="../htmlContent.html"><div class="containerBtn">Html Practice</div></a>
+          <a class="link" href="../cssContent.html"><div class="containerBtn">Css Practice</div></a>
+        </div>
+      </div>
+      
+    <div class="container">
+        <img class="overflowPng" src="../images/overflow.png" alt="">
+        <h2>CSS Overflow</h2>
+
+<p>The overflow property controls what happens to content that is too big to fit into an area.</p>
+
+<div id="overflowTest" class="overflowTestA">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+
+
+

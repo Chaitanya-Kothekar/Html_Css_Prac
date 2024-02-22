@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../htmlPrac/htmlcss.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Button</title>
+    <style>
+      .button {
+        background-color: #04aa6d;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navHeader">
+      <div>
+        <div class="Btn">
+          <backButton class="linkBtn"
+            ><i class="ri-arrow-left-circle-line ri-2x"></i
+          ></backButton>
+          <nextButton class="linkBtn"
+            ><i
+              id="next"
+              class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"
+            ></i
+          ></nextButton>
+        </div>
+      </div>
+      <div class="nav2container">
+        <a class="link" href="../index.html"
+          ><div class="containerBtn">Home</div></a
+        >
+        <a class="link" href="../htmlContent.html"
+          ><div class="containerBtn">Html Practice</div></a
+        >
+        <a class="link" href="../cssContent.html"
+          ><div class="containerBtn">Css Practice</div></a
+        >
+      </div>
+    </div>
+
+    <div class="container">
+        <img class="buttonPng" src="../images/button.png" alt="">
+      <h2>CSS Buttons</h2>
+
+      <button>Default Button</button>
+      <a href="#" class="button">Link Button</a>
+      <button class="button">Button</button>
+      <input type="button" class="button" value="Input Button" />
+    </div>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

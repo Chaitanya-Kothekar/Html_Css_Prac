@@ -1,112 +1,129 @@
 <!DOCTYPE css>
 <css lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cssContent.css">
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <title>CSS</title>
-</head>
-<body>
-    <div class="navHeader">
-        <div>
-            <div class="Btn">
-                <backButton class="linkBtn"><i class="ri-arrow-left-circle-line ri-2x"></i></backButton>
-                <nextButton class="linkBtn"><i id="next"  class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"></i></nextButton>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="cssContent.css" />
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+        <title>CSS</title>
+        <style>
+            #overflowTest {
+              background: #4CAF50;
+              color: white;
+              padding: 15px;
+              width: 50%;
+              height: 100px;
+              overflow: scroll;
+              border: 1px solid #ccc;
+            }
+            </style>
+    </head>
+
+    <body>
+        <div class="navHeader">
+            <div>
+                <div class="Btn">
+                    <backButton class="linkBtn"><i class="ri-arrow-left-circle-line ri-2x"></i></backButton>
+                    <nextButton class="linkBtn"><i id="next"
+                            class="ri-arrow-right-circle-line btnSize ri-2x nextBtn"></i></nextButton>
+                </div>
+            </div>
+            <div class="nav2container">
+                <a class="link" href="index.html">
+                    <div class="containerBtn">Home</div>
+                </a>
+                <a class="link" href="htmlContent.html">
+                    <div class="containerBtn">Html Practice</div>
+                </a>
+                <a class="link" href="cssContent.html">
+                    <div class="containerBtn">Css Practice</div>
+                </a>
             </div>
         </div>
-        <div class="nav2container">
-          <a class="link" href="index.html"><div class="containerBtn">Home</div></a>
-          <a class="link" href="htmlContent.html"><div class="containerBtn">Html Practice</div></a>
-          <a class="link" href="cssContent.html"><div class="containerBtn">Css Practice</div></a>
-        </div>
-      </div>
-    <nav class="navBar">
-        <h1>Practice</h1>
-    </nav>
-    <img class="png5" src="./images/png5.png" alt="">
-    <div class="practiceContainer">
-        
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
-        <div class="cards">
-            <h2>css</h2>
-        </div>
+        <nav class="navBar">
+            <h1>Practice</h1>
+        </nav>
+        <img class="png5" src="./images/png5.png" alt="" />
+        <div class="practiceContainer">
 
-    </div>
-    <script src="script.js"></script>
-</body>
+            <a class="link" href="./cssPrac/syntax.html"> 
+            <div class="cards"><h2>CSS Syntax</h2></div> </a>
+            
+            <a class="link" href="./cssPrac/slector.html"> 
+                <div class="cards"><h2>CSS Selector</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/color.html"> 
+                <div class="cards"><h2>CSS Color</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/syntax.html"> 
+                <div class="cards"><h2>CSS Backgrounds</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/broder.html"> 
+                <div class="cards"><h2>CSS Border</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/syntax.html"> 
+                <div class="cards"><h2>CSS Margin</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/boxModel.html"> 
+                <div class="cards"><h2>CSS BoxModel</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/outline.html"> 
+                <div class="cards"><h2>CSS Outline</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/textalign.html"> 
+                <div class="cards"><h2>Css Text Align</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/font.html"> 
+                <div class="cards"><h2>CSS Font Family</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/link.html"> 
+                <div class="cards"><h2>CSS Link</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/list.html"> 
+                <div class="cards"><h2>CSS List</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/table.html"> 
+                <div class="cards"><h2>CSS Table</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/display.html"> 
+                <div class="cards"><h2>CSS Inline Display</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/blockLev.html"> 
+                <div class="cards"><h2>CSS Block Display</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/maxWidth.html"> 
+                <div class="cards"><h2>CSS Max-Width</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/static.html"> 
+                <div class="cards"><h2>CSS Static</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/fixed.html"> 
+                <div class="cards"><h2>CSS Fixed</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/absolute.html"> 
+                <div class="cards"><h2>CSS Absolute</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/syntax.html"> 
+                <div class="cards"><h2>CSS Sticky</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/zindex.html"> 
+                <div class="cards"><h2>CSS Z-index</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/syntax.html"> 
+                <div class="cards"><h2>CSS Overflow</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/float.html"> 
+                <div class="cards"><h2>CSS Float</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/syntax.html"> 
+                <div class="cards"><h2>CSS Align</h2></div> </a>
+                
+            <a class="link" href="./cssPrac/button.html"> 
+                <div class="cards"><h2>CSS Button</h2></div> </a>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
 </css>
+
