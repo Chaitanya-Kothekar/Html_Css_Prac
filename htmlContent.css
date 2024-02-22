@@ -61,3 +61,41 @@ body{
 .link{
     text-decoration: none;
 }
+.navHeader{
+    display: flex;
+    text-align: right;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #776B5D;
+    border-radius: 0px 0px 20px 20px;
+    font-size: larger;
+    
+}
+.nav2container{
+    display: flex;
+}
+.containerBtn{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 10px;
+    color: white;
+}
+.containerBtn:hover{
+    background-color: aliceblue;
+    color: #776B5D;
+    border-radius: 10px;
+    margin: 5px;
+}
+.icon{
+    margin-left: 30px;
+    height: 50px;
+}
+.linkBtn{
+    color: aliceblue;
+}
+.Btn{
+    margin-left: 30px;
+    margin-top: 10px;
+}

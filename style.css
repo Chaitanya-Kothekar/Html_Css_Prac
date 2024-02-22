@@ -11,10 +11,13 @@
     height: 60px;
     background-color: #776B5D;
     border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 .navBar h1{
     padding-top: 10px;
 }
+
 
 /* body 1st container*/
 
@@ -79,8 +82,12 @@
 }
 .link{
     text-decoration: none;
+    color: aliceblue;
 }
 .button:hover{
     background-color:#776B5D;
     font-size:larger;
+}
+.Btn{
+    margin:8px 30px 30px 30px;
 }

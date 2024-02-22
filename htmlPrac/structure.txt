@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="htmlcss.css">
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-    rel="stylesheet"
-  />
-    <title>Image</title>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title></title>
 </head>
 <body>
     <div class="navHeader">
@@ -24,16 +24,11 @@
           <a class="link" href="../cssContent.html"><div class="containerBtn">Css Practice</div></a>
         </div>
       </div>
+      
     <div class="container">
-        <div>
-            <img class="imgPng" src="../images/image.png" alt="">
-        </div><br><br>
-        <div>
-            <h2>Output</h2>
-            <img src="../images/seo-and-web-coding-10506472-8458917.png" alt="">
-
-        </div>
+        
     </div>
+
     <script src="../script.js"></script>
 </body>
 </html>
