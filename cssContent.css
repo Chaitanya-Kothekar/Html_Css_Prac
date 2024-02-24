@@ -41,7 +41,12 @@ body{
     background-color: white;
     border: 1px solid white;
     box-shadow: 30px 40px 40px rgba(0,0,0,0.4);
+    border: 3px solid white ;
 
+}
+.cards:hover{
+    background-color: white;
+    border: 3px solid #776B5D;
 }
 .cards h2{
     margin-top: 40%;
