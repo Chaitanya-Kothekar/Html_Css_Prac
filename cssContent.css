@@ -104,6 +104,10 @@ body{
 
 /* responsive */
 @media(max-width:480px){
+    .Btn{
+        display: flex;
+        margin-left: 10px;
+    }
     .navBar h1{
         padding-top: 10%;
         font-size: 40px;
