@@ -41,7 +41,7 @@ body{
     background-color: white;
     border: 1px solid white;
     box-shadow: 30px 40px 40px rgba(0,0,0,0.4);
-    border: 3px solid whitecss ;
+    border: 3px solid white ;
 
 }
 .cards:hover{
@@ -100,4 +100,60 @@ body{
 
 .linkBtn{
     color: aliceblue;
+}
+
+/* responsive */
+@media(max-width:480px){
+    .navBar h1{
+        padding-top: 10%;
+        font-size: 40px;
+        margin-left: 30%;
+        color: #776B5D;
+    }
+    .containerBtn{
+        padding: 15px;
+        font-size: medium;
+        display: flex;
+    }
+    .nav2container{
+        text-align: center;
+        justify-content: center;
+        padding: 0 5%;
+    }
+    
+.containerBtn:hover{
+    background-color: aliceblue;
+    color: #776B5D;
+    border-radius: 10px;
+    margin: 1px;
+    height: 60px;
+}
+.png5{
+    margin-top: -40px;
+    margin-left: 9%;
+    width: 120px;
+}
+
+.cards{
+    margin: 10px;
+    height: 120px;
+    width: 100px;
+    font-size: small;
+    padding: 5px;
+
+}
+.practiceContainer{
+    background-color: #776B5D;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.cards h2{
+  font-size: medium;
+  font-weight: bolder;
+}
+
 }

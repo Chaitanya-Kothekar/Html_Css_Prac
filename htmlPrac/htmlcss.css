@@ -222,47 +222,137 @@ body {
 .tableA {
   margin-left: 45%;
 }
-.inlineCss{
-    height: 400px;
+.inlineCss {
+  height: 400px;
 }
-.block{
-    height: 400px;
+.block {
+  height: 400px;
 }
-.maxWidthPng{
-    height: 400px;
-    width: 500px;
+.maxWidthPng {
+  height: 400px;
+  width: 500px;
 }
-.staticPng{
-    height: 400px;
+.staticPng {
+  height: 400px;
 }
-.fixeda{
-    height:300px;
+.fixeda {
+  height: 300px;
 }
-.absolutePng{
-    height: 400px;
+.absolutePng {
+  height: 400px;
 }
-.stickya{
-    height: 500px;
+.stickya {
+  height: 500px;
+  width: 100%;
+}
+.zindexa {
+  height: 400px;
+}
+.overflowPng {
+  height: 500px;
+}
+.overflowTestA {
+  margin-left: 25%;
+}
+.floatPng {
+  height: 400px;
+}
+.alingPng {
+  height: 400px;
+}
+.buttonPng {
+  height: 400px;
+}
+.headingPng {
+  height: 600px;
+}
+/* responsive */
+@media (max-width: 480px) {
+  .containerBtn {
+    padding: 15px;
+    font-size: medium;
+    display: flex;
+  }
+  .nav2container {
+    text-align: center;
+    justify-content: center;
+    padding: 0 5%;
+  }
+
+  .containerBtn:hover {
+    background-color: #776b5d;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 1px;
+    height: 35px;
+  }
+  .imgPng {
     width: 100%;
-}
-.zindexa{
-    height: 400px;
-}
-.overflowPng{
-    height: 500px;
-}
-.overflowTestA{
-    margin-left: 25%;
-}
-.floatPng{
-    height: 400px;
-}
-.alingPng{
-    height: 400px;
-}
-.buttonPng{
-    height: 400px;
-}
-.headingPng{
-    height: 600px;
+    border-radius: 10px;
+  }
+  .container {
+    font-size: medium;
+    padding: 10px;
+  }
+  .listPng {
+    height: 350px;
+  }
+  .headingPng {
+    height: 250px;
+  }
+  .favPng {
+    height: 250px;
+    width: 300px;
+  }
+  .blockPng {
+    height: 100px;
+    width: 340px;
+  }
+  .inline {
+    height: 300px;
+  }
+  .iframePng {
+    height: 100px;
+    width: 100%;
+  }
+  .semanticPng {
+    height: 150px;
+  }
+  .mediaPng {
+    height: 120px;
+  }
+  .mobTable {
+    margin-left: 2%;
+    border: 1px solid;
+  }
+  .canvasPng {
+    height: 150px;
+  }
+  .colorPng {
+    height: 200px;
+  }
+  .border {
+    height: 350px;
+    width: 350px;
+  }
+  .boxmodel {
+    height: 250px;
+  }
+  .div1 {
+    margin-left: 1%;
+    width: 200px;
+  }
+  .listPng {
+    height: 550px;
+    width: 240px;
+  }
+  .staticPng {
+    height: 200px;
+  }
+  .fixeda {
+    height: 100px;
+  }
+  .absolutePng {
+    height: 200px;
+  }
 }
