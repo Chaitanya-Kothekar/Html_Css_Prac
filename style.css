@@ -33,6 +33,7 @@
   font-size: 80px;
   margin-top: 12%;
   margin-right: 30%;
+  /* margin-right: 30%; */
   color: black;
 }
 .png1 {
@@ -90,6 +91,14 @@
 }
 
 /* responsive */
+@media (max-width: 1280px) {
+  .container1-b {
+    font-size: 43px;
+    margin-top: 15%;
+    margin-right: 30%;
+    padding-bottom: 20%;
+  }
+}
 @media (max-width: 480px) {
   .png1 {
     height: 280px;
@@ -100,8 +109,8 @@
   .container1-b {
     font-size: 43px;
     margin-top: 10px;
-    margin-right: 10%;
-    margin-left: 50px;
+    margin-right: 0%;
+    /* margin-left: 50px; */
     padding-bottom: 20%;
   }
   .container1 {

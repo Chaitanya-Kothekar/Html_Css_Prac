@@ -103,6 +103,22 @@ body{
 }
 
 /* responsive */
+@media (max-width: 1280px) {
+    .practiceContainer{
+        background-color: #776B5D;
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        justify-content: center;
+    }
+    .navBar h1{
+        padding-top: 10px;
+        font-size: 80px;
+        margin-left: 5%;
+        color: #776B5D;
+    }
+  }
 @media(max-width:480px){
     .Btn{
         display: flex;
